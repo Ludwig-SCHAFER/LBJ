@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Les Bons Jouets - 🧸🚜🪀🤖👾🔫🪁🎁🎀 - Association autour du jouet à  Peillac 56220 -</title>
+		<meta name="description" content="Site web de l'asso LBJ">
+		<meta name="author" content="association Les Bons Jouets">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://unpkg.com/papercss@1.8.0/dist/paper.min.css">
+	</head>
+	<body class="padding-left-large padding-right-large">
+		<h1 class="padding-left-large">Les Bons Jouets</h1>
+
+		<nav class="paper border margin-bottom-large">
+			<div class="nav-brand margin-right-large">
+				<h4><a href="#">Accueil</a></h4>
+			</div>
+			<ul class="inline child-shadows-hover">
+				<li class="padding-top-small"><a href="#">Catalogue</a></li>
+				<li class="padding-top-small"><a href="#">Réparation</a></li>
+				<li class="padding-top-small"><a href="#">Évènements</a></li>
+				<li class="padding-top-small"><a href="#">Nouveautés</a></li>
+				<li class="padding-top-small"><a href="#">À propos de nous</a></li>
+				<li class="padding-top-small">
+					<form>
+						<!--<label for="recherche_rapide">Rechercher : </label>-->
+						<input id="recherche_rapide" type="text" placeholder="rechercher" />
+						<!--<a href="#">🔍</a>-->
+					</form>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="row">
+			<!--menu rapide-->
+			<div class="sm-4 md-3 lg-3 col flex-top">
+
+				<div class="collapsible">
+					<input id="collapsible1" type="checkbox" name="collapsible">
+					<label for="collapsible1" popover-bottom="Legos, Playmos, etc.">Jeu de construction</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Lego</a></li>
+							<li><a href="#">Playmobil</a></li>
+							<li><a href="#">Jeux en bois</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="collapsible">
+					<input id="collapsible2" type="checkbox" name="collapsible">
+					<label for="collapsible2">Jeu de société</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Enfants</a></li>
+							<li><a href="#">Famille</a></li>
+							<li><a href="#">Experts</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="collapsible">
+					<input id="collapsible3" type="checkbox" name="collapsible">
+					<label for="collapsible3">Figurines</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Garçons</a></li>
+							<li><a href="#">Filles</a></li>
+							<li><a href="#">Illégal de séparer ♂️ & ♀️ ?</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="collapsible">
+					<input id="collapsible4" type="checkbox" name="collapsible">
+					<label for="collapsible4">Jouets bébés</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Enfants</a></li>
+							<li><a href="#">Famille</a></li>
+							<li><a href="#">Experts</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="collapsible">
+					<input id="collapsible5" type="checkbox" name="collapsible">
+					<label for="collapsible5">Vintage, collections, pub</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Jouets anciens</a></li>
+							<li><a href="#">Jouets à collectionner (kinder, panini.)</a></li>
+							<li><a href="#">Jouets publicitaires (flunch, etc.)</a></li>
+						</ul>
+					</div>
+				</div>				
+
+				<div class="collapsible">
+					<input id="collapsible6" type="checkbox" name="collapsible">
+					<label for="collapsible6">Livres</label>
+					<div class="collapsible-body">
+						<ul class="">
+							<li><a href="#">Bandes Déssinées</a></li>
+							<li><a href="#">Livres 1er age</a></li>
+							<li><a href="#">Enfants</a></li>
+							<li><a href="#">Ado</a></li>
+							<li><a href="#">Grands</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<!--résultats de recherche-->
+			<div class="sm-8 md-9 lg-9 col border border-2 paper">
+				<p>Trop de la balle ??<br />
+					Pour aujourd'hui ca ira.<br />
+				</p>
+			</div>
+		</div>
+
+		<!--PIED DE PAGE-->
+		<ul id="footer" class="inline paper border border-4">
+			<li class="col-fill col"><a href="#">Mentions légales</a></li>
+			<li class="col-fill col"><a href="#">Contact</a></li>
+		</ul>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
